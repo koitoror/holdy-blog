@@ -2,6 +2,7 @@
   "name": "blog",
   "private": true,
   "dependencies": {
+    "jquery": "^3.4.1",
     "jquery-ujs": "^1.2.2"
   }
 }

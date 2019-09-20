@@ -4,6 +4,10 @@ Rails.application.routes.draw do
   resources :articles do
   	resources :comments
   end
+
+  namespace :api do
+    get '/articles', to: 'articles#index'
+  end
   
   root 'welcome#index'
 
